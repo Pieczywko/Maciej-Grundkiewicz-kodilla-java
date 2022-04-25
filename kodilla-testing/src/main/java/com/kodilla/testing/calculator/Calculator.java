@@ -4,25 +4,20 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args) {
+        int a;
+        int b;
 
-        Scanner scan = new Scanner(System.in);
+        public Calculator (int a, int b){
+            this.a=a;
+            this.b=b;
 
-        System.out.println("Podaj 1 liczbe: ");
-        int a = scan.nextInt();
-
-        System.out.println("podaj 2 liczbe");
-        int b = scan.nextInt();
-
-        int add= a+b;
-        int substract= a-b;
-
-            System.out.println("wynik dodawania wynosi: ");
-            System.out.println(add);
-
-            System.out.println("wynik odejmowania wynosi: ");
-            System.out.println(substract);
         }
+       public int add(int a, int b) {
+            int add= a+b;
+            return add; }
+       public static int subtract(int a, int b) {
+            int subtract= a-b;
+            return subtract; }
 
-    }
+        }
 
