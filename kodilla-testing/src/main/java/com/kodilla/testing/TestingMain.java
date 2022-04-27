@@ -1,12 +1,13 @@
+
 package com.kodilla.testing;
 import com.kodilla.testing.calculator.Calculator;
 
 public class TestingMain {
 
-     public static void main(String[] args) {
-        Calculator calculator= new Calculator(10,10);
+    public static void main(String[] args) {
+        Calculator calculator= new Calculator();
 
-       int add = calculator.add(10,10);
+        int add = calculator.add(10,10);
         if (add == 20) {
             System.out.println("test ok");
         }else{
@@ -21,4 +22,3 @@ public class TestingMain {
 
     }
 }
-
