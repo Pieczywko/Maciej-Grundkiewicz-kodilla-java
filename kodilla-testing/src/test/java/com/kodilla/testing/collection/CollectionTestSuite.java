@@ -55,9 +55,9 @@ public class CollectionTestSuite {
         newList.add(7);
 
         ArrayList<Integer> resultList = new ArrayList<>();
-        resultList.add(2);
-        resultList.add(4);
-        resultList.add(6);
+        resultList.add(1);
+        resultList.add(3);
+        resultList.add(5);
 
 
         //When
