@@ -23,8 +23,6 @@ public class CollectionTestSuite {
         oddNumbersExterminator = new OddNumbersExterminator();
     }
 
-    @DisplayName // tu powinno coś być?
-
 
     @Test
     void testOddNumbersExterminatorEmptyList(){
